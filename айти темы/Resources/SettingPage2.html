@@ -1,0 +1,76 @@
+﻿<html>
+
+<head data-event-handler="Setting2EventHandler" data-viewstate-type="uTorrent.EventHandlers.Setting2EventHandler+ViewState, uTorrent">
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
+    <script type="text/tiscript" src="resources/tis/EventHandler.tis"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Configuration</h1>
+            <div class="head-img-block right">
+                <img class="logoHeader" />
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="wrapper">
+                <div class="config-item">
+                    <p id="Line1" class="line1">
+                        The following options automate the configuration of some additional settings in Windows.
+                    </p>
+                    <p id="Line2" class="font-weight-700">Additional Settings</p>
+                    <ul class="checkbox-list">
+                        <li>
+                            <button id="CheckBox1" type="checkbox" checked="checked">
+                                Add an exception for μTorrent in Windows Firewall
+                            </button>
+                        </li>
+                        <li>
+                            <button id="CheckBox2" type="checkbox" checked="checked">
+                                Start μTorrent when Windows starts up
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="config-item">
+                    <p id="Line3" class="line3">
+                        Select which file types you would like μTorrent to handle by default.
+                    </p>
+                    <p id="Line4" class="font-weight-700">File Types</p>
+                    <ul class="checkbox-list">
+                        <li>
+                            <button id="CheckBox3" type="checkbox" checked="checked">
+                                .torrent (BitTorrent files)
+                            </button>
+                        </li>
+                        <li>
+                            <button id="CheckBox4" type="checkbox" checked="checked">
+                                Magnet URIs
+                            </button>
+                        </li>
+                        <li>
+                            <button id="CheckBox5" type="checkbox" checked="checked">
+                                .btsearch (BitTorrent Search engine file)
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="w-100">
+                <div class="w-50">
+                    <input id="btnBack" type="button" value="Back" />
+                </div>
+                <div class="w-50">
+                    <input id="btnNext" type="button" value="Next" class="btn-right" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

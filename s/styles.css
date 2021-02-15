@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.header__logo {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}

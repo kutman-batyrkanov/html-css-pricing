@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./photo_2020-11-23_14-51-59.jpg);
+    height: 600px;
+    width: 1250px;
+}
+nav  {
+    display: flex;
+    padding: 0 5px;
+    justify-content: center;
+}
+ ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#exam {
+    background-color: rgba(92, 221, 98, 0.911);
+    color: black;
+    border-radius: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+#exam-1 {
+
+}
+div.kink {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+

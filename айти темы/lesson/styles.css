@@ -1,0 +1,114 @@
+body {
+    background-color: azure;
+}
+li{
+    padding-top: 10px;
+}
+#ex-1 {
+    border-top: 3px  solid black ;
+    border-bottom: 3px  solid black;
+    border-left: 3px  solid black;
+    border-right: 3px  solid black;
+    width: 80px;   
+}
+.p1{
+   padding-left: 10px; 
+}
+
+#ex-2 {
+    border-top: 3px  solid lightcoral ;
+    border-bottom: 3px  solid lightcoral;
+    border-left: 3px  solid lightcoral;
+    border-right: 3px  solid lightcoral;
+    width: 80px;   
+    background-color:lightcoral;
+}
+.p2{
+   padding-left: 10px; 
+}
+#ex-3 {
+    border-top: 3px  dotted red ;
+    border-bottom: 3px  dotted red;
+    border-left: 3px  dotted red;
+    border-right: 3px  dotted red;
+    width: 80px;   
+}
+.p3{
+   padding-left: 10px; 
+   color: red;
+}
+#ex-4 {
+    border-top: 3px  dotted green ;
+    border-bottom: 3px  dotted green;
+    border-left: 3px  dotted green;
+    border-right: 3px  dotted green;
+    width: 160px;   
+}
+.p4{
+   padding-left: 50px; 
+   color: blue;
+}
+#ex-5 {
+    border-top: 10px  solid green ;
+    border-bottom: 10px  solid blue;
+    border-left: 10px  solid lightcoral;
+    border-right: 10px solid black;
+    width: 80px;   
+}
+.p5{
+   padding-left: 10px; 
+   color: lightyellow;
+}
+#ex-6 {
+    border-top: 3px  solid black ;
+    border-bottom: 3px solid black;
+    border-left: 3px  solid black;
+    border-right: 3px  solid black;
+    width: 150px;   
+    background-color: black;
+}
+.p6{
+   padding-left: 80px; 
+   color: white;
+}
+#ex-7 {
+    border-top: 3px  solid lightcoral ;
+    border-bottom: 3px  solid lightcoral;
+    border-left: 3px  solid lightcoral;
+    border-right: 3px  solid lightcoral;
+    width: 80px;   
+    background-color: lightcarol;
+}
+.p7{
+   padding-left: 10px; 
+}
+#ex-8 {
+    border-top: 3px  dotted red ;
+    border-bottom: 3px  dotted red;
+    border-left: 3px  dotted red;
+    border-right: 3px  dotted red;
+    width: 80px;   
+}
+.p8{
+   padding-left: 10px; 
+}
+#ex-9 {
+    border-top: 3px  dotted red ;
+    border-bottom: 3px  dotted red;
+    border-left: 3px  dotted red;
+    border-right: 3px  dotted red;
+    width: 80px;   
+}
+.p9{
+   padding-left: 10px; 
+}
+#ex-10 {
+    border-top: 3px  dotted red ;
+    border-bottom: 3px  dotted red;
+    border-left: 3px  dotted red;
+    border-right: 3px  dotted red;
+    width: 80px;   
+}
+.p10{
+   padding-left: 10px; 
+}

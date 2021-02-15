@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-style: italic;
+}
+h3 {
+    color: green;
+    text-decoration: underline;
+}
+aside {
+    color: orange;
+    font-weight: bold; 
+}
+summary {
+    color: purple;
+    font-size: 20px;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}

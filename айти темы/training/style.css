@@ -1,0 +1,29 @@
+
+ li{
+    display: inline;
+    margin: 60px; 
+    
+}
+h1,h4 {
+    color: white;
+    margin: 100px;
+}
+body {
+    background-image: url(./photo_2020-11-02_15-27-01.jpg);
+    height: 500px;
+    background-size: cover;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    margin: 30px;
+}
+button {
+    color: rgb(121, 190, 230);
+    display: inline;
+    margin: 60px;
+    text-align: center;
+}
+

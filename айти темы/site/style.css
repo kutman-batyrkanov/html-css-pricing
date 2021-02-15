@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    border: 2px black solid;
+    margin: 50px;
+}
+nav {
+    background-color: #dbcfcf;
+}
+h1,h4 {
+    color: white;
+    text-align: center;
+    text-shadow: 10px;
+}
+ul {
+    margin: 150px;
+}
+
+main {
+    background-image: url(./фото.jpg);
+    background-size: 100%;
+    height: 500px;
+}

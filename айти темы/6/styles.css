@@ -1,0 +1,97 @@
+.example-2 {
+    color: bisque;
+}
+.example-3 {
+    font-size: 40px;
+}
+@media screen and (max-width:1000px) {
+    .example-3 {
+        color: red;
+        background-color: cadetblue;
+        font-size: 20px;
+    }
+    @media screen and (max-width:1000) {
+        .example-3 {
+            color: green;
+            background-color: yellow;
+        }
+    }
+}
+.example-4 {
+    display: flex;
+    margin: 10px;
+}
+.example-4 aside {
+    flex: 0 0 300px;
+    background-color: cornsilk;
+    padding: 10px;
+}
+.example-4 main {
+    flex: 1 1 0%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.example-5 {
+    display: flex;
+    margin: 10px;
+}
+.example-5 main {
+    flex: 1 1 0%;
+    background-color: cornsilk;
+    padding: 10px;
+}
+.example-5 aside {
+    flex: 0 0 400px;
+    background-color: #fff;
+    margin: 10px;
+    }
+    .example-4 aside {
+        flex: 0 0 300px;
+        background-color: cornsilk;
+        padding: 10px;
+    }
+    .example-4 main {
+        flex: 1 1 0%;
+        background-color: antiquewhite;
+        padding: 10px;
+    };
+    padding: 10px;
+}
+.example-4 {
+    display: flex;
+    margin: 10px;
+}
+.example-4 aside {
+    flex: 0 0 300px;
+    background-color: cornsilk;
+    padding: 10px;
+}
+.example-4 main {
+    flex: 1 1 0%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+@media (max-width:900) {
+    .example-4 {
+        flex-direction: column;
+    }
+    .example-4 aside {
+        flex: 1 1 0%;
+    }
+}
+@media (max-width:900) {
+    .example-5 {
+        flex-direction: column;
+    }
+    .example-5 aside {
+        flex: 1 1 0%;
+    }
+}
+@media (max-width:900) {
+    .example-6 {
+        flex-direction: column;
+    }
+    .example-6 aside {
+        flex: 1 1 0%;
+    }
+}

@@ -1,0 +1,317 @@
+﻿body {
+    font: 14px "Segoe UI", Verdana;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 20px 0 10px 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 90%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.right {
+    text-align: right !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.hide {
+    display: none;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.sm-ft {
+    font-size: 85% !important;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.mt-5 {
+    margin-top: 1.5em;
+}
+
+.half-w {
+    width: 60%;
+}
+/************************************************************************ container ***********/
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: left;
+}
+/************************************************************************ header */
+
+.header {
+    height: 16%;
+    margin: 0;
+    padding: 0;
+    flow: horizontal;
+    color: #000;
+    background-color: #FFF;
+    max-width: 100%;
+    width: auto;
+    border-bottom: 1px solid #dadada;
+}
+
+    .header h1 {
+        padding: 0 0 0 40px;
+        line-height: 1;
+        font-weight: 700;
+        color: #000000;
+        font-size: 123%;
+        margin-top: *;
+        margin-bottom: *;
+    }
+
+        .header h1 .subheader {
+            display: block;
+            font-weight: normal;
+            font-size: 83%;
+            margin-top: 3px;
+        }
+
+.head-img-block {
+    width: 45dip;
+    margin: * 30px * auto;
+}
+
+    .head-img-block img {
+        width: *;
+        background: no-repeat url('data:image/png; base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEttJREFUeNqsWnlsHOd1f3PP3heXp0RKIilZPhjZlCzHig/Zrs8UiRvUBhw4aOLERgu0tdEL6JUiCVoUSYu2fzSIm/REDPRIK6Rw68pWHJ+SZUqxKYmURJ2kRC659y73npmv731z7JCi7KTorobcHc7xrt/v/d43En71+4/BRi8Bt0qzALu33ge7R++FUiMLqqQBAxPSoREoNpag2amBJClKmzXuz1QvPNhhzUlBECbaZjPOwMJriLgx7w34XZP1ErPYtCLpx4YiowdVMXSobbU7QSUMyUA/rNTnQRYUaBsNKLezYFotCKsJKDZX0vnm4p+IIB+KaamHN0e3/zCgRItTmYMvyPAzvMgQRdRBl8PQNlsTS/XzX2yZtc/VzcpmNJ4baTEDj9H4ZzsUAj8TmIW/Lai2inERxLtZu3R3sbn0QkiJL+D1frA5uvPv0Khpur5htkAUZegJDMMqOtIyG5DSB7N1o/pWtV2aTupDLXT8EdaptlVRm5J/WuNFQYSQEoNGp7Jjaunl38s1rjzdsuogY3Ywqmiy6ERb9c7q/qScSPybJgU8vyzLglqntLncXHm+3Fp+fqV+6R+HItv/GCN/ptjIQFCPQUzfCWfyhyEox9AxzKwAEV0JTTfN6r6GURU0JfD2xzrBMIKaFISW2ISFyuzvX62d+VrDrApBNQYhOc7/7joqOG/bGcH3004Icz8yKjY8Ho3SWIBfv4PRP184/gUsy6dH4jf/YTo4/A1RkLjxYTWFzlawkI2XRMGyOmaD1azSb/CLSkwUP8oBi5kQVKJgWMbW04V3j5yvTH0dEyLE9DSvW3KAm007BYFvdF33s0gbx4VgF5bglpe7l+/k15FFBeJ6H5jMEGZy73z9RPbNI4i/rWEtgY7EIaEPYAk3Oh2raeKZFjnIkcYsS9r7ue0bOkAGWCamXwncsyouvFHurIyG1STuV3h03ajbdq9/d8nBsd73Hc/2zmG+kgWeHQmxoCIuSq3lTSu1y1+MqenDkqBcHgyP43kGLK2eg7jWC4bQ4VcwEPjXdcIwTVBl7TN6HF6RddB0KYo3sTwDRUFwbHMNXGO6G3vnM3OyAN7fmOArWcEGiSAwr+Z0KYSgLmjnisd/KaKlPhiMjJ3ZHNkJm8I78QJIEEYB2qzJs7hhOZkIOItZDwwN9R8YTA+ByDTcZ3qGUvlsFH+3jNyy4Z/5W/QS0s2V/XcmYkmIHWhCFRCsHniI5aiUJCyb45lXDlypnn6AWC+JZbUtvgduTuyHPn0LID6xFEVfhARiDEZejA0O9r2aSqag1W7z4AhCN8Kij3W4QcLayNsG2vC2mah7NBNNaFk17DF1aLfaGFQJFCEIcWUQTKGFrqwgDmNoh4GnmRDA/mG2LHjt0j+8KgryeFROnyu2MkgqMUhJW8AMMJAZ8zMRQKdjQCoVP9Sf7sXPHdzHfJxvO8N8eQChiwL/T49HvZrH76IFzVobgqwXhgK9kIj0I2D7sXkOQU9wCNnZhJdOfwOuVM9i3ad5QC0MRlCNQqm5DO8s/Ntrj2z95S3YMwB7BuJHgq3hXeSE5d2UHNA05Tt9fb3DJhpPZSX66rdb9107/SZ3HbTNF5wTbSBbUKoX4O70U/CJwbsgoGM/Ua4t5Xs2PwHfm/5ddAgz6WAEqRWiWg9k6hdGTuZ//OKjW597tohOuUES17Q0Zk6m06lnNRUx0DH9xWGDGOvXwJR3oLEOxGtxwvwcxdyjRN55w/EABCIqmmVCG0vVv1mmBeOpXTAan4ACGcmcnsO4bTxrx5df+crZ4vu7Y1qSM5PFOjbiKIIdowORSPhvk/EEGPiZSRYa3IC6VeIXzFUzUCwXgNVUUJpR7NyrFGpunJ0BBwN4Y4E5jjgwsfmcQUiLwuGF/wQDAyRJkg+Ltpsdw+DH7xl4BOqdqpNR5p3PexPuO7x44HsNYxXLSeGMKfPIUd0zeACBPCGrMqwUF/GKCkSUJPQow5AID0ICuTmFAq03PAzBQBAOZ36IUTmI+wb5+W4pdRPEbDyzrgAJIxivrs7BbPY9uGXwzu55DjCJZBj2poneu2A4egPkmosQQfHHMwHEWBbEtD64XDk1caYw9eANqb0Hy80sYQJLBCMQDAb/KBTRobpagVsjj8H29K2QCPZBFBuFEhBhPRzuGv4szKKmaRl1Lgpd+qTsMOZmhbmQ5o2MSxglAB9mfwS39N8JsqyAaRpeJui8ttFGXGqwe+Ah+NfT34IoNljLyzPzqPxk7q2v9gW2HlxtF21MIAuMRcOhfZKEZdU24N7tj8PYpp2QSiZB0UXuJDEVbVS7Bh5DxownJ7Gz5r1oumnnN3N+8wiSGY5eiqk9cL44DZcKs1hSome8u5E/xDWT/fdDX2gLVNFI5itJCgQJ0ZXGxTvzjSvjYSWBUKVak6WngqEg3liGOhRhtvgOvzgZ3DE7vgvYaTfxTa+dqb28GXlxsix+E9tg+02fwAGnvaFcF0wsxUNO51+PDQHaHcyGGsRsPAjF1rLdmdySwk0WVe7cYu3cU0E1gsyNnVjV1EcphfyzrMGp3GGylIsyN1J+AFJKSVeNxG6AocgYVDAbbgm5kbd8w5CXJdxrIrcl9F6YyR+BXGUJZEVyKcF3L9LpALcPPIpzRB/Jf99gxbiEJ0l/ZfXsoyez75ITLKFr+qQsy7y5RJQUSW64Wr4AotwFnd8ZW1t1OEHvSO3hMtlmEtN3MzsrdM1uZuxsoKCDVaOI2XjNkeair5zsmqdsRAMJuLXvAcg1rvJ5xis9PpxpeI3CJKY/Sfw4qalISU5d0/DSRFlwOv/eNRTY1UXOPrTphuTtGNk0NBHgFrMZhKfecjPglpTFi52OMZHz43oPfLjyBtQbNVAUZcNBjP59cvAzOE/EkUAatpNu/8cyrLYK0ubk+G5kNfFGRZGd7mc3lQgKr7nSMQR5BxRZvX42sMNHAnEYTeyCUnvFUbVOBhzjeQ4c4+k3E2yHdDGM8/Ql+GD5dXCCvIal3OunI4Owq/deyNav8Gy4ZWpj0YJTy0d2oqIWhkRJ9vQNHRBA2Z2pXYYLhRP8Bv6a9TvTBfgdNk4sx1jXeHp7YLe4jKAMcU2EPTuE4+fx5VfB6jDEonoN9ihj9No39AscqwZ2Z1/jQdtkKDYzmzATQkJwjOrClnSLCacL7zmCQbrOiogN8C3xm2AoPAblVtYGr2s0OkDan6LPI2gxZ5y1nQwj/i5WTsCp7GEQJMFH0d3Spe6+OTEON6X3YTbm0RI7bXQFHcGNGipOe3S/3uSQ5J0xCedLH0KlVga73NaWkncTBDhla2fPHQi0knMNxxG3oCy+KsBLlTsk2A4yi+SHDEcz/81vTGzo7+C8EVsdWxhuegIbI0pBuoZjKCeIdkkTKc7M0fz+olHFIOSx7Z8tvO/MKWsdYGs0PMCNPXfyRkYAt6PNvHICBwtUTjY2uoSbRFF3Bu9xMTdj0+36QKF9lI2xnk/A7sGHkVbnPOr3pkyMetM0LU/vuAigSKqKhix11I6SpFzDVC4lUkcnOhxL3AY5BKCtx2zjOSMJDj6c713gU2dHNsTZYHr5resuGHE6Rxt+cccLkFD6YWF1BsuPQUuo03JRi5pd0TJMENaUix0n6hmXyqcgU1oASb5WIvhXRei1F5sTlUfbatqMRG+BOfhgnvRgjgyxQW6AiPKj3qqtCZJ7L8FR2a12C5kwAc/v+TZs0TFYxRXIZXPQL42XZNTwV4nK3PxY0OViojEayGfy70J/4knwJp51LMUHKqTjofgo7O1/DH40/xJsid2EEWzbuofjw2N/R4XY7pADbdRkaW1kw3L1V22r1YKB+Aj8zr6/gdmln/AhbiCy9bLITHGm2erwOgWH53nNMrsD0wxwJv8+WAbqdkXZkM9dOiQZ/cjYl2BL5GZYqJ5GaS15xnryg9OwCe5abdlahrg1BLcN3LsWZ+sard8RRkQyfCtMjO6BaCxySkTVeqzZaBk0CAm2Zrbr1nEmosQRTGewZ5y09T5bS4PeLIAURTKamuOXd/0p9KqjcKlykos9jhEOcNMThLT6VxWwJDIF+Oy2X4NkKsWzSUSgqiqX49AdtdaohbbRAhMhUKmWOoVy7riYq2aL5UrlWLtl2EY686Q9hNhCDAU46ve3PWM3anyuM81mC8KBCDy/969hMvkYLBXnSW1CnZWgLTRxq0HZzMJC6SwYORWe2flNuP3Ge7jMJwzRaHxq+TDM5T5AR3RQBG3NPdxlIFpCMkxjCoNRlrbcE6f2PpiIxfZHoiG7LLyRzB7WaVWu2MjBZPrn+IXpAtdLN2cTZCtd12DX4N0wrN2M+kGGVrONpYDZ7qjQI47A7uSn4cmbfxN2bL2J8z9tkiAjgUg4DP05/MvsN6E3NAzD8R1A4pRvaAeNtXQMrXTgKS9GA/E3hc//xb20KDCWSkfnRm8YssFtWl4aXe8Xqxfg8zv/ACY374dmq7kmI+4x9oBleZ/JeeJ+utRqpYaSvcBngUSgD5RQt8bdF5VQpjIP3zr6DIdnrV2BHT17YCJ9F8r+G7EB9/JxodhegrnlaejTto2nwv3nZMPCwYcZ5zLZlXd6BxL7Yskwj4qrIt3fCnqPIyFMbtrPmw1fEVzXBO05WfScMpE+TSpTdDiMWQ4LtuXEyK7xdBw5rus6//5Pp77GV8j7MAsxLQ3zOBaczU/xaS6EapYW5SrtPCxmMu/2K+PnNOxl0uA+na/G1RuNeU3Rv5DuTdqNyOqCin7TIu9KbQFuSd4DkVCUR+TjmMRjMWeQoTKjAFEPsZ21GUrT7br/zrHfxrn9KAyEttHqOD+P1mRpsYAC17FaNIXyRYx6pfPlXGPxPK3EiGF6kIFNJByIvpbJZD/M5Yr8QL5w5TQmYisZAVburMCJ3FvXNdwPcIo+aZv1xwq+uYXwpWoKXKmchT87/CyfL4bCo3yx7NqHPBIElCC/ZqlcPYE97GAikOZToqzLOseBrhCztJ+5cnl5KhwN8A5NTbA7dJp8OXEm9w7ct+UJLkM6SKnrG5TLHm0sCUWyHKrc+EUM9d7Sy3Dk6sv8+KHwuO0A2/h4GdVAvlSE+mr9SyRK3fDJpUah+6SHicdWM9UXQ1Ht2W1jm2x5bFreSBglGYLcf75wCkZ7bwK63/oS4lEWJR6E/zj7VxhBGW7p+RSvaWK+Eg7+9HDxQnkaLhZPItiL0BMc5Kt7JleswvplXP6Fpr9Gswnlwup3MctTzCdYZeTaruRg9OBCeu7qfPbhcDg4nB6Iow4y7QYoML5USaPrdPbH3Al76ZJd08UJ0LoWhN7gCPzl1K/AeOJWe7WO1pXMBn8yqsoBiOGIGlFTvIMTBsC39LkmA0ivZGcxX52XBf0riraOTBRJBb4h9dH0pKoKVev9F+auQiFXwQggkCR3zjCBHnXN4vzdwqamyMqGeLAZiMGnNj0Odwx92n70KwUhKId4xAci27gEp75gOdPhhrqMaFqy13iXMzmo1RsPgOSOu6a3iS2zCe5G7ZwG8nInfy5fKjw4NzsPlWKdO8Kf7tF6qhzFDjyH2Dhij66+Acb/aqOMoRIgji+3chgojT/WXaOW2bqo+4NAJYQEQzjILK1AuVJ9iInGXNNY5auOZKe7id0rse4SP4IMSeDV1dXG4zMnL0JhpYoXk+wlHMIOYmU6+6bT0KQ1Sy1djWPxS+7pf4ivbLQxSB/58j3b440P9RMx3PnzC5DN5h9XNfmgOyStv5fYfWAu+B46IjDxArIiHsgWc/dNT89VFxdynHUkRYAUdlya+IqVHB4jX6NqPXnOVys2wUTv3ZCn1YqNnq4Jax57c/2m6yoXeCdOzFXnF67cp+rKgWvljQ8TH/ccW1Hl15EVds3OXjx6dmYBmtUOds4olMwM9ow3HanBNuwH7mrFJwd+Hr/L9mQnrDPed46K5UcKtpArw9TRmaPzlxZ3BYKB12mN+KNe0rb9yY3/QJnAGjaQafDiRVlQv1solFm+UNwPOFJqAewTUIfbBx/hdUsGromW85yP7O4JD/AJcb5yGqk27j154aWAYFNUCTEjA5YvnJubh/NnF75aW209rWhSMRhSOdmIH/HI/adygm6GkgSnMOGNfDn/z9jVE0ZNmqCV7ZHIDtiUGuXY4AoTf/OH82L3fxfQfmKno5n/QnykuEHEOrSfslgt12FhfhlOz174/uLiypOarP9Aw5Ii5tGwC2va/4MTIv+s2DOyYOaQ4P69slo9sJLPtjPZpaFeYSRarOax4zf4Eyf+fzBAcIyVeBD6wiMwl/8JXCzMgAIhVLVNWMGBaP7S0pWFy5m/X1kuPNdst74dCGg5vpDmUDpl/OOc+Jn+l43nIEVbFT4MGtFfL9dLvzWXO3lfqBh7EMvktoAenMDySmiqzldLyAnCOa1up2u3wFsX367kjPlplDjH6s3G/3Q6rUOKqrRJQwkm+7+YA/8rwAANcsttShG88AAAAABJRU5ErkJggg==');
+        background-size: contain;
+        background-position: center;
+    }
+
+/************************************************************************ content */
+
+.content {
+    background-color: #f0f0f0;
+    max-width: 100%;
+    width: *;
+    height: *;
+    size: *;
+    color: #333333;
+    position: relative;
+}
+
+    .content .wrapper {
+        margin: 0 3.2em;
+        margin-top: 25px;
+    }
+
+    .content p {
+        padding: 0;
+        font-size: 95%;
+        line-height: 1.30;
+    }
+
+    .content h2 {
+        font-size: 155%;
+        line-height: 1.15;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+        .content h2 .subtitle {
+            font-size: 90%;
+            display: block;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+    .content .suite h2 {
+        line-height: 1.15;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+.wrapper h4 {
+    font-size: 105%;
+    margin: 30px 0 15px;
+}
+
+/************************************************************************ Setting Page */
+
+.config-item:first-child {
+    margin-bottom: 1.5em;
+}
+
+ul.checkbox-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/************************************************************************ footer */
+.footer {
+    border-top: 1px solid #dadada;
+    min-height: 17.8%;
+    width: 1*;
+    background-color: #f0f0f0;
+}
+
+.w-100 {
+    flow: horizontal;
+    width: 1*;
+    margin-top: *;
+    margin-bottom: *;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.w-50 {
+    width: 50%;
+    flow: horizontal;
+    border-spacing: 2%;
+}
+
+/************************************************************************ link */
+.link {
+    color: #7fbc4c;
+    text-decoration: underline;
+}
+
+.banner-link {
+    display: block;
+    position: absolute;
+    bottom: 30;
+    right: 40px;
+    width: 230dip;
+    height: 200dip;
+    cursor: pointer;
+}
+
+    .banner-link img {
+        max-width: 100%;
+    }
+
+/************************************************************************ controls */
+input[type=submit],
+input[type=button],
+input[type=reset] {
+    font-size: 130%;
+    font-weight: 700;
+    background: #7fbc4c;
+    border: 1px solid #75ad46;
+    color: #fff;
+    padding: 2dip 3dip 3dip;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    width: 40%;
+}
+
+    input[type=submit]:hover,
+    input[type=button]:hover,
+    input[type=reset]:hover {
+        background: #75ad43;
+    }
+
+    input[type=submit].btn-right,
+    input[type=button].btn-right,
+    input[type=reset].btn-right {
+        margin-left: *;
+    }
+
+    input[type=submit].hide,
+    input[type=button].hide,
+    input[type=reset].hide {
+        display: none;
+    }
+
+
+    input[type=submit].linkBtn,
+    input[type=button].linkBtn,
+    input[type=reset].linkBtn {
+        background: #7fbc4c;
+        border: 1px solid #75ad46;
+        color: #fff;
+        text-decoration: none;
+        margin-left: *;
+    }
+
+    input[type=submit]:hover.linkBtn,
+    input[type=button]:hover.linkBtn,
+    input[type=reset]:hover.linkBtn {
+        background: #75ad43;
+    }
+
+button[type="checkbox"] {
+    font-size: 88%;
+}
+
+/***************************************************progress-bar*/
+.progress {
+    position: relative;
+}
+
+progress {
+    foreground-color: #51aa07 !important;
+    background: #d7d7d7;
+    width: *;
+    height: 22dip;
+}
+
+/***************************************************p License page */
+
+.scroll-bar {
+    overflow: auto;
+    width: 1*;
+    border: 1px solid #ccc;
+    height: 24.5vw;
+    padding: 0 0 0 15px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+    .scroll-bar h2 {
+        font-size: 20px;
+        color: #333;
+        font-weight: 400;
+        margin-top: 0.5em;
+    }
+
+    .scroll-bar h3 {
+        font-size: 18px;
+        color: #999;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .scroll-bar p {
+        font-size: 14px;
+        color: #666;
+        font-weight: 300;
+    }
+
+.subList {
+    list-style-type: lower-alpha;
+}

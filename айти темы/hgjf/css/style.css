@@ -1,0 +1,21 @@
+h1{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    
+}
+h2{
+    color: white;
+    font-style: italic;
+    text-align: center; 
+}
+
+html{
+    background-image:  url('/img/бумажный.jpg');
+    background-size: 100%;
+    width: 100%;
+    color: bisque;
+    
+    
+
+}

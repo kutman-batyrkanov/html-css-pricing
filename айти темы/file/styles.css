@@ -1,0 +1,20 @@
+.aligned-right {
+    float: right;
+    margin-left: 15px;
+}
+.aligned-left {
+    float: left;
+    margin-right: 15px;
+}
+p {
+    text-align: justify;
+}
+img {
+    border: 2px white solid;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 10px;
+    padding: 3px;
+    
+}

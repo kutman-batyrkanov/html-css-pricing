@@ -1,0 +1,49 @@
+@keyframes heartbeat {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+@keyframes color {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: tomato;
+
+    animation: heartbeat 1.5s, infinite;
+}
+div::before, div::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
