@@ -1,8 +1,7 @@
-import classes from "../Person";
-import { useState } from "react";
+import classes from "../Person/Person";
 import classes from "./PersonList.module.css";
 
-const PersonList = ({ fast }) => {
+const PersonList = ({ person }) => {
     return ( 
     <div className={classes.PersonList}>
         {person.filter(person => <Person {...person} />)}
