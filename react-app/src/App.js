@@ -55,22 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <Filter state={filterStudents} change={() => setFilterStudents(!filterStudents)}>
-        Only Students
-      </Filter>
-      <Filter state={filterWpm} change={() => setFilterWpm(!filterWpm)}>
-        34 wpm
-      </Filter>
-      <Filter state={filterCommits} change={() => setFilterCommits(!filterCommits)}>
-        +1000 commits
-      </Filter>
- 
- 
-      <PersonList 
-      persons={persons}
-      filterStudents={filterStudents}
-      filterWpm={filterWpm}
-      filterCommits={filterCommits} />
+      
     </div>
   );
 }
