@@ -15,8 +15,7 @@ const App = () => {
       setB(randomNumber(50));
       setAnswer("?");
       setCountdown(20);
-    }
-    else {
+    } else {
       alert("No");
     }
   }
@@ -24,11 +23,14 @@ const App = () => {
     <div className="App">
       {a} + {b} = {answer}
       <Countdown countdown={countdown} setCountdown={setCountdown} />
-      <input type="number" value={answer} onChange={({ target }) => setAnswer(target.value)} />
+      <input
+        type="number"
+        value={answer}
+        onChange={({ target }) => setAnswer(target.value)}
+      />
       <button onClick={() => checkAnswer()}>Ok</button>
     </div>
   );
-}
-
+};
 
 export default App;
