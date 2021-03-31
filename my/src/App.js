@@ -1,36 +1,34 @@
-import { useState } from "react";
-import Countdown from "./components/Countdown/Countdown";
-const App = () => {
-  const [a, setA] = useState(randomNumber(50));
-  const [b, setB] = useState(randomNumber(50));
-  const [answer, setAnswer] = useState("?");
-  const [countdown, setCountdown] = useState(20);
-  function randomNumber(limit) {
-    return Math.round(Math.random() * limit);
-  }
-  function checkAnswer() {
-    const c = a + b;
-    if (c == answer) {
-      setA(randomNumber(50));
-      setB(randomNumber(50));
-      setAnswer("?");
-      setCountdown(20);
-    } else {
-      alert("No");
-    }
-  }
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import classes from "./Posts.module.css";
+const Posts = ({ message }) => {
+  const [posts, setPosts] = useState([]);
+  console.log("[Posts.js] render");
+  // Выводится только при первом выводе
+  useEffect(() => {
+    console.log("[Posts.js] render with useEffect");
+  }, []);
+  // Выводится только при изменении message
+  useEffect(() => {
+    console.log("[Posts.js] render with useEffect depeding on message variable");
+  }, [message]);
+  // Для задержки выполнения чего-то
+  useEffect(() => {
+    setTimeout(() => console.log("Hello from Posts"), 2000);
+  }, []);
+  useEffect(() => {
+    axios.get('https://jsonplaceholder.typicode.com/posts')
+      .then((response) => {
+        setPosts(response.data);
+      });
+  }, []);
   return (
-    <div className="App">
-      {a} + {b} = {answer}
-      <Countdown countdown={countdown} setCountdown={setCountdown} />
-      <input
-        type="number"
-        value={answer}
-        onChange={({ target }) => setAnswer(target.value)}
-      />
-      <button onClick={() => checkAnswer()}>Ok</button>
+    <div className={classes.Posts}>
+      <article>
+        <h2>title</h2>
+        <p>body</p>
+      </article>
     </div>
   );
-};
-
-export default App;
+}
+export default Posts;
