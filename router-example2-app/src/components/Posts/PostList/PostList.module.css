@@ -1,0 +1,19 @@
+.PostList {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    list-style: none;
+    margin-top: 50px;
+}
+.PostList li {
+    padding: 20px;
+    /* background-color: #6d676b; */
+    /* border: 1px solid black; */
+    width: 190px;
+    height: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px black;
+    list-style-type: none;
+    opacity: 0.7;
+}
