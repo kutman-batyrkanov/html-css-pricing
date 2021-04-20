@@ -16,6 +16,7 @@ const CounterSimpleControls = () => {
     <div>
       <button onClick={incrementBy1Callback}>+1</button>
       <button onClick={decrementBy1Callback}>-1</button>
+      <br></br>
       <button onClick={incrementBy10Callback}>+10</button>
     </div>
   );
