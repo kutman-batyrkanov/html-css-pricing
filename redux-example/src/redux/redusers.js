@@ -7,7 +7,9 @@ const counterReducer = (state = initialState, ation) => {
         case "increment_by_1":
           return { ...state, number: state.number + 1};
         case "decrement_by_1":
-            return { ...state, number: state.number - 1};    
+            return { ...state, number: state.number - 1}; 
+        case "icrement_by_10":
+            return { ...state, number: state.number + 10};   
     }
 
     return state;
