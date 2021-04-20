@@ -8,11 +8,15 @@ const CounterSimpleControls = () => {
   function decrementBy1Callback() {
     dispatch({ type: "decrement_by_1" });
   }
+  function incrementBy10Callback() {
+    dispatch({ type: "increment_by_10" });
+  }
 
   return (
     <div>
       <button onClick={incrementBy1Callback}>+1</button>
       <button onClick={decrementBy1Callback}>-1</button>
+      <button onClick={incrementBy10Callback}>+10</button>
     </div>
   );
 };
