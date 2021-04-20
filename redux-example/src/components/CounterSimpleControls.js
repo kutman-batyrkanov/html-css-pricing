@@ -19,7 +19,7 @@ const CounterSimpleControls = () => {
     dispatch({ type: "increment_by_random" });
   }
   function decrementByRandomCallback() {
-    dispatch({ type: "increment_by_random" });
+    dispatch({ type: "decrement_by_random" });
   }
 
   return (
